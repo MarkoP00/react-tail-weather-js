@@ -32,9 +32,9 @@ const App = () => {
       {/* background  */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        // style={{
-        //   backgroundImage: `url("https://images.unsplash.com/photo-1518873890627-d4b177c06e51?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2ludGVyJTIwd2FsbHBhcGVyfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000")`,
-        // }}
+        style={{
+          backgroundImage: `url("https://images.unsplash.com/photo-1518873890627-d4b177c06e51?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2ludGVyJTIwd2FsbHBhcGVyfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000")`,
+        }}
       >
         <div className="absolute inset-0 bg-gradient-to-br from-blue-900/40 via-purple-900/30 to-indigo-900/40"></div>
         <div className="absolute inset-0 bg-black-20"></div>
